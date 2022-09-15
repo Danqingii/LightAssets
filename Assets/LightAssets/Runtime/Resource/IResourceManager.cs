@@ -6,7 +6,7 @@ namespace LightAssets
     /// <summary>
     /// 资源管理器接口。
     /// </summary>
-    public interface IResourceManager
+    public interface IResourceManager : ISerializerVersion,IEventHandler
     {
         /// <summary>
         /// 获取资源只读区路径。
@@ -39,47 +39,7 @@ namespace LightAssets
         {
             get;
         }
-
-        /// <summary>
-        /// 获取单机模式版本资源列表序列化器。
-        /// </summary>
-        Serializer<> PackageVersionListSerializer
-        {
-            get;
-        }
-
-        /// <summary>
-        /// 获取可更新模式版本资源列表序列化器。
-        /// </summary>
-        Serializer<> UpdatableVersionListSerializer
-        {
-            get;
-        }
-
-        /// <summary>
-        /// 获取本地只读区版本资源列表序列化器。
-        /// </summary>
-        Serializer ReadOnlyVersionListSerializer
-        {
-            get;
-        }
-
-        /// <summary>
-        /// 获取本地读写区版本资源列表序列化器。
-        /// </summary>
-        ReadWriteVersionListSerializer ReadWriteVersionListSerializer
-        {
-            get;
-        }
-
-        /// <summary>
-        /// 获取资源包版本资源列表序列化器。
-        /// </summary>
-        ResourcePackVersionListSerializer ResourcePackVersionListSerializer
-        {
-            get;
-        }
-
+        
         /// <summary>
         /// 获取当前资源适用的游戏版本号。
         /// </summary>
@@ -298,61 +258,6 @@ namespace LightAssets
             get;
             set;
         }
-
-        /// <summary>
-        /// 资源校验开始事件。
-        /// </summary>
-        event EventHandler<ResourceVerifyStartEventArgs> ResourceVerifyStart;
-
-        /// <summary>
-        /// 资源校验成功事件。
-        /// </summary>
-        event EventHandler<ResourceVerifySuccessEventArgs> ResourceVerifySuccess;
-
-        /// <summary>
-        /// 资源校验失败事件。
-        /// </summary>
-        event EventHandler<ResourceVerifyFailureEventArgs> ResourceVerifyFailure;
-
-        /// <summary>
-        /// 资源应用开始事件。
-        /// </summary>
-        event EventHandler<ResourceApplyStartEventArgs> ResourceApplyStart;
-
-        /// <summary>
-        /// 资源应用成功事件。
-        /// </summary>
-        event EventHandler<ResourceApplySuccessEventArgs> ResourceApplySuccess;
-
-        /// <summary>
-        /// 资源应用失败事件。
-        /// </summary>
-        event EventHandler<ResourceApplyFailureEventArgs> ResourceApplyFailure;
-
-        /// <summary>
-        /// 资源更新开始事件。
-        /// </summary>
-        event EventHandler<ResourceUpdateStartEventArgs> ResourceUpdateStart;
-
-        /// <summary>
-        /// 资源更新改变事件。
-        /// </summary>
-        event EventHandler<ResourceUpdateChangedEventArgs> ResourceUpdateChanged;
-
-        /// <summary>
-        /// 资源更新成功事件。
-        /// </summary>
-        event EventHandler<ResourceUpdateSuccessEventArgs> ResourceUpdateSuccess;
-
-        /// <summary>
-        /// 资源更新失败事件。
-        /// </summary>
-        event EventHandler<ResourceUpdateFailureEventArgs> ResourceUpdateFailure;
-
-        /// <summary>
-        /// 资源更新全部完成事件。
-        /// </summary>
-        event EventHandler<ResourceUpdateAllCompleteEventArgs> ResourceUpdateAllComplete;
 
         /// <summary>
         /// 设置资源只读区路径。
