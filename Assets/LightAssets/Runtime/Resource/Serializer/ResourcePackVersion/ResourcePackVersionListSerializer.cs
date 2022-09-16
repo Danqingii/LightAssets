@@ -1,4 +1,4 @@
-﻿namespace LightAssets {
+﻿namespace GameFrameworkAsset {
     /// <summary>
     /// 资源包版本资源列表序列化器。
     /// </summary>

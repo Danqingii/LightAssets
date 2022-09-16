@@ -1,4 +1,4 @@
-﻿namespace LightAssets
+﻿namespace GameFrameworkAsset
 {
     /// <summary>
     /// 解密资源回调函数。

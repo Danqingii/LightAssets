@@ -1,4 +1,4 @@
-﻿namespace LightAssets 
+﻿namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 本地只读版本序列器

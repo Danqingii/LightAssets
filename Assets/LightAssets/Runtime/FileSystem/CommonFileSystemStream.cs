@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 通用文件系统流。

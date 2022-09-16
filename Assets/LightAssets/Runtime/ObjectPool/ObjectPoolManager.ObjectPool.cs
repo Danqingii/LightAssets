@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     internal sealed partial class ObjectPoolManager : IObjectPoolManager 
     {

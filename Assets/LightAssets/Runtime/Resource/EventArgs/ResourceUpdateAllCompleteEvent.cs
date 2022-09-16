@@ -1,4 +1,4 @@
-﻿namespace LightAssets
+﻿namespace GameFrameworkAsset
 {
     /// <summary>
     /// 资源更新全部完成事件。

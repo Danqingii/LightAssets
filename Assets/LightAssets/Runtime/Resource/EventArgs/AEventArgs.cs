@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 抽象事件基类。

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     internal sealed partial class ObjectPoolManager : IObjectPoolManager 
     {

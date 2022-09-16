@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LightAssets
+namespace GameFrameworkAsset
 {
     /// <summary>
     /// 对象池接口。

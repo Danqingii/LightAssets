@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 版本资源列表更新成功回调函数。

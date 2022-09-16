@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     internal static partial class Utility
     {

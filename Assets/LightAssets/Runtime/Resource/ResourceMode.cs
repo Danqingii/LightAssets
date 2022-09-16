@@ -1,4 +1,4 @@
-﻿namespace LightAssets 
+﻿namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 资源模式

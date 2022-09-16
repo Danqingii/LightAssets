@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 释放对象筛选函数。

@@ -1,4 +1,4 @@
-﻿namespace LightAssets 
+﻿namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 可更新模式版本资源列表序列化器。

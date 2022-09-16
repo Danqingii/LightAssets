@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LightAssets {
+namespace GameFrameworkAsset {
     public class AssetEnter : MonoBehaviour
     {
         // Start is called before the first frame update

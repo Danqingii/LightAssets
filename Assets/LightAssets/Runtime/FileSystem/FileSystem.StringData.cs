@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace LightAssets
+namespace GameFrameworkAsset
 {
     internal sealed partial class FileSystem : IFileSystem
     {

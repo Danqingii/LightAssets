@@ -1,4 +1,4 @@
-﻿namespace LightAssets 
+﻿namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 版本序列器接口

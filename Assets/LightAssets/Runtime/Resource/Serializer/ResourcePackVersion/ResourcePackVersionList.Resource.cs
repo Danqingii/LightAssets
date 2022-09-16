@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     public partial struct ResourcePackVersionList
     {

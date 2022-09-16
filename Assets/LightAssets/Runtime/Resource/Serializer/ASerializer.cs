@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace LightAssets
+namespace GameFrameworkAsset
 {
     /// <summary>
     /// 抽象序列化器

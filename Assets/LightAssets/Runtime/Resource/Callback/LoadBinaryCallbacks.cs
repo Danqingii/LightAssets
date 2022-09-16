@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LightAssets
+namespace GameFrameworkAsset
 {
     /// <summary>
     /// 加载二进制资源成功回调函数。

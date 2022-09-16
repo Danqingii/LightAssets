@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 引用池
@@ -145,7 +145,7 @@ namespace LightAssets
             public T Acquire<T>() where T : class, IReference,new()
             {
                 if (typeof(T) != m_ReferenceType) {
-                    throw new Exception("类型不可用");
+                    throw new Exception("type is invalid");
                 }
                 UsingCount++;
                 AcquireCount++;
@@ -172,7 +172,7 @@ namespace LightAssets
             public void Release(IReference reference) {
                 reference.Clear();
                 if (m_References.Contains(reference)) {
-                    throw new Exception("引用已存在");
+                    throw new Exception("Reference exist");
                 }
                 m_References.Enqueue(reference);
                 UsingCount--;
@@ -182,7 +182,7 @@ namespace LightAssets
             public void Add<T>(int count) where T : class, IReference,new() 
             {
                 if (typeof(T) != m_ReferenceType) {
-                    throw new Exception("类型不可用");
+                    throw new Exception("type is invalid");
                 }
                 while (count-- > 0) {
                     m_References.Enqueue(new T());

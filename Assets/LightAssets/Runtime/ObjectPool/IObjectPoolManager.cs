@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LightAssets
+namespace GameFrameworkAsset
 {
     /// <summary>
     /// 对象池管理器。

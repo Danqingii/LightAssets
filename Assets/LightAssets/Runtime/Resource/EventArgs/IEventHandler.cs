@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 处理资源 事件处理者接口

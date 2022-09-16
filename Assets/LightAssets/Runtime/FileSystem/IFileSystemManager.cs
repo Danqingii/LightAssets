@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LightAssets
+namespace GameFrameworkAsset
 {
     /// <summary>
     /// 文件系统管理器。

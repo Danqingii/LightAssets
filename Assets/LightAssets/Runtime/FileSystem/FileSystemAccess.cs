@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LightAssets 
+namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 文件系统访问方式。

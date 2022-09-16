@@ -1,4 +1,4 @@
-﻿namespace LightAssets 
+﻿namespace GameFrameworkAsset 
 {
     /// <summary>
     /// 使用可更新模式并更新指定资源组完成时的回调函数。

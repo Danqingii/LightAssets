@@ -1,4 +1,4 @@
-﻿namespace LightAssets 
+﻿namespace GameFrameworkAsset 
 {
     public class LocalVersionListReadWriteSerializer : ASerializer<LocalVersionList>
     {

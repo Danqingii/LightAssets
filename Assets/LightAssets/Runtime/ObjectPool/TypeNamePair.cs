@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace LightAssets
+namespace GameFrameworkAsset
 {
     /// <summary>
     /// 类型和名称的组合值。

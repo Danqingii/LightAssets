@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LightAssets
+namespace GameFrameworkAsset
 {
     /// <summary>
     /// 抽象对象基类。
@@ -118,6 +118,4 @@ namespace LightAssets
         /// <param name="isShutdown">是否是关闭对象池时触发。</param>
         protected internal abstract void Release(bool isShutdown);
     }
-    
-    
 }

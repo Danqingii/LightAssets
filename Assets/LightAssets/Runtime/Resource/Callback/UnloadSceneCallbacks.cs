@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LightAssets
+namespace GameFrameworkAsset
 {
     /// <summary>
     /// 卸载场景成功回调函数。

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LightAssets
+namespace GameFrameworkAsset
 {
     /// <summary>
     /// 资源管理器接口。

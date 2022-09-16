@@ -1,4 +1,4 @@
-﻿namespace LightAssets
+﻿namespace GameFrameworkAsset
 {
     /// <summary>
     /// 加载资源代理辅助器异步将资源二进制流转换为加载对象完成事件。
